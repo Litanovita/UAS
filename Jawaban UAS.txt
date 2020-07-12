@@ -1,0 +1,46 @@
+==================
+Soal Ujian Akhir Semester
+Nama : Lita Novita
+NIM : 311710332
+Matkul : Arsitektu dan organisasi Komputer
+Kelas : TI.17.D3
+Universitas Pelita Bangsa
+2020
+================
+
+
+1. Dalam arsitektur komputer ada 4 komponen Utama CPU, Sebutkan dan jelaskan kegunanaanya?
+jawaban:
+1. arithmetic and logic unit (alu), bertugas membentuk fungsi-fungsi pengolahan data komputer. alu sering disebut mesin bahasa (machine language) karena bagian ini mengerjakan instruksi bahasa mesin yang diberikan padanya. seperti istilahnya, alu terdiri dari dua bagian, yaitu unit arithmetika dan unit logika boolean, yang masing-masing memiliki spesifikasi tugas tersendiri. 
+2. control unit, bertugas mengontrol operasi cpu dan secara keseluruhan mengontrol komputer sehingga terjadi sinkronisasi kerja antar komponen dalam menjalankan fungsi-fungsi operasinya. termasuk dalam tanggung jawab unit kontrol adalah mengambil instruksi-instruksi dari memori utama dan menentukan jenis instruksi tersebut. 
+3. registers, adalah media penyimpanan internal cpu yang digunakan saat proses pengolahan data. memori ini bersifat sementara, biasanya digunakan untuk menyimpan data saat diolah ataupun data untuk pengolahan selanjutnya. 
+4. cpu interconnections, adalah sistem koneksi dan bus yang menghubungkan komponen internal cpu, yaitu alu, unit kontrol, dan register-register dan juga dengan bus-bus eksternal cpu yang menghubungkan dengan sisitem lainnya, seperti memori utama, piranti masukan/keluaran.  
+
+2. Control Unit adalah bagian dari komputer yang menggenerasi signal yang mengontrol operasi
+komputer, sebutkan jenis apa saja yang termasuk Control Unit?
+jawaban : Single-Cycle CU, Multi-Cycle CU
+
+3. Set instruksi (instruction set) adalah sekumpulan lengkap instruksi yang dapat di mengerti oleh sebuah
+CPU. Set instruksi sering juga disebut sebagai bahasa mesin . sebutkan macam-macam format
+Instruksi?
+jabanan :
+1. Data procecessing: Arithmetic dan Logic Instructions
+2. Data storage: Memory instructions
+3. Data Movement: I/O instructions
+4. Control: Test and branch instructions
+
+4. Direct Memory Access (DMA) adalah suatu metode transfer data dari memori komputer atau RAM ke
+suatu bagian dari komputer tanpa memprosesnya menggunakan CPU. Sebutkan kelebihan
+menggunakan DMA ?
+jawaban: 
+1. Dapat menirukan sebagian fungsi processor.
+2. Dapat mengambil alih fungsi processor yang berhubungan dengan transfer data.
+3. CPU dapat melakukan menejemen operasi baca tulis (transfer data) dengan baik dan juga dapat menyelesaikan instruksi yang lain.
+4. Mendapat informasi tentang jumlah data bit yang ditransfer, alamat dari device dan memory yang diperlukan dan arah dari aliran data.
+
+5. Pipeline adalah mesin yang melaksanakan beberapa komputasi yang berbeda secara bersama-sama
+,namun pada saat itu setiap komputasi akan berada dalam tahapan eksekusi yang berbeda. Sebutkan
+dua kategori Pipeline ?
+jawaban:
+1.Pipeline Unit Arithmetic : berguna untuk operasi vector
+2.Pipeline Unit Instruction : berguna untuk komputer yang mempunyai set instruksi yang sederhana 
